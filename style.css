@@ -273,10 +273,88 @@ section.other-tools {
 .htw_ul {
     margin-left: 40px;
 }
+.section {
+    padding: 20px 0;
+}
+
+.bg-skyblue {
+    background-color: var(--color-skyblue);
+    overflow-x: hidden;
+}
+h2.feature-card-heading {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.feature-cards-grid {
+    display: grid
+;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.hr-right {
+    border: 3px solid #ff0092;
+    background: #ff0092;
+}
+
+.feature-heading-hr {
+    border-radius: 5px 0 0 5px;
+    width: 70px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.hr-left {
+    border: 3px solid blue;
+    background: blue;
+}
+
+.feature-heading-hr {
+    border-radius: 5px 0 0 5px;
+    width: 70px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.feature-card {
+    padding: 20px 16px 10px;
+    border-radius: 10px;
+    height: auto;
+    min-height: 100%;
+    transition: 1s;
+    line-height: 1.5;
+    background: #fff;
+    border: 2px solid ;
+    background-image: linear-gradient(to right , rgb(170, 224, 255) , pink)
+;
+}
+.feature {
+    background-color: #f6f8fc;
+}
+.faq-box {
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 15px 50px #0000000f;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.faq-q h3 {
+    font-size: medium;
+    color: #091e42;
+}
+a {
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .row.guide-row {
         flex-direction: column; /* Stack guide row on smaller screens */
         gap: 1rem;
     }
     
+}
+@media  (max-width:425px) {
+    .mehnat img{
+        width: 400px;
+        height: 200px;
+    }
 }
